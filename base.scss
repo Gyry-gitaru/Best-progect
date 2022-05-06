@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Inter&family=Mulish&family=Noto+Serif:wght@700&family=Poppins&family=Roboto&display=swap');
+
+$main-color: #263238;
+$text-color-h: #000000;
+$text-color-p: #8F95A5;
+$background: #F5F5F5;
+
+@mixin text_h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: $text-color-h;
+} 
+
+@mixin text_h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: $main-color;
+}
+
+@mixin paragraph {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $text-color-p;
+}
+@mixin paragraph_main {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;  
+}
+@mixin main_btn {
+    display: inline-block;
+    background: $main-color;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;   
+    padding: 16px 65px;
+}
+
+@mixin text_h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: $main-color;   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;   
+}
+
+
+
